@@ -1,0 +1,14 @@
+/Users/tranvanquang/Projects/Lab04/Lab04/bin/Debug/netstandard2.0/Lab04.deps.json
+/Users/tranvanquang/Projects/Lab04/Lab04/bin/Debug/netstandard2.0/Lab04.dll
+/Users/tranvanquang/Projects/Lab04/Lab04/bin/Debug/netstandard2.0/ref/Lab04.dll
+/Users/tranvanquang/Projects/Lab04/Lab04/bin/Debug/netstandard2.0/Lab04.pdb
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/Lab04.csprojAssemblyReference.cache
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/Views/PageInsertLoaiHoa.xaml.g.cs
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/Lab04.AssemblyInfoInputs.cache
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/Lab04.AssemblyInfo.cs
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/Lab04.dll
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/ref/Lab04.dll
+/Users/tranvanquang/Projects/Lab04/Lab04/obj/Debug/netstandard2.0/Lab04.pdb

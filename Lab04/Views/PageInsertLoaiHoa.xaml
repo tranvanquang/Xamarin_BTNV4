@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmode="clr-namespace:Lab04.ViewModels"
+             x:Class="Lab04.Views.PageInsertLoaiHoa">
+    <ContentPage.BindingContext>
+        <viewmode:LoaiHoaViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid Margin="30" Padding="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Text="Tên loại" Grid.Row="0" Grid.Column="0" Margin="15,15"/>
+            <Entry Text="{Binding Loaihoa.TenLoai, Mode=TwoWay}" Grid.Row="0" Grid.Column="1"/>
+            <Button Text="Insert" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" Command="{Binding AddLoaiHoa}"/>
+            <Button Text="Update" Grid.Row="1" Grid.Column="1" VerticalOptions="Center" Command="{Binding UpdateLoaiHoa}"/>
+            <ListView x:Name="lstLoaiHoa" VerticalOptions="Center"
+                      ItemsSource="{Binding LoaihoaList}" SelectedItem="{Binding Loaihoa, Mode=TwoWay}"
+                      Grid.Row="2" Grid.ColumnSpan="2">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding MaLoai, Mode=TwoWay}" Detail="{Binding TenLoai, Mode=TwoWay}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
